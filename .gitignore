@@ -1,3 +1,34 @@
+# --- Secrets ---
+.env
+.env.*
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- macOS junk ---
+.DS_Store
+
+# --- Local data (Bronze landing) ---
+data/
+
+# --- Archives ---
+*.zip
+*.tar
+*.gz
+
+# --- VSCode ---
+.vscode/settings.json
+
+# --- Logs ---
+*.log
 .env
 .venv/
 **/__pycache__/

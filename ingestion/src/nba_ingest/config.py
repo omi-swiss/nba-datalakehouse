@@ -2,8 +2,10 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load .env from project root
+# Project root = nba-datalakehouse
 ROOT = Path(__file__).resolve().parents[3]
+
+# Always load .env from project root
 load_dotenv(ROOT / ".env")
 
 THE_ODDS_API_KEY = os.getenv("THE_ODDS_API_KEY")

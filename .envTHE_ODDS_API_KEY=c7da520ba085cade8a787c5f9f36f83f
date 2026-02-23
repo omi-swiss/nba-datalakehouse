@@ -1,6 +1,6 @@
 # BallDontLie (NBA)
-BDL_API_KEY=bdb5b015-1883-47dc-b94f-a39c053aa678
+BDL_API_KEY=
 BDL_BASE_URL=https://api.balldontlie.io/v1
 
 # The Odds API
-THE_ODDS_API_KEY=bdb5b015-1883-47dc-b94f-a39c053aa678
+THE_ODDS_API_KEY=

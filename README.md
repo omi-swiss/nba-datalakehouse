@@ -2,6 +2,13 @@
 
 A Databricks lakehouse project that ingests NBA game and betting-odds data, preserves raw source payloads in JSONL/Delta Bronze storage, and builds Silver tables for game, team, date, and head-to-head odds analysis.
 
+## Skills demonstrated
+
+- **Data engineering:** REST API ingestion, JSONL landing zones, ETL/ELT, Medallion Architecture, incremental and historical data loads.
+- **Lakehouse engineering:** Databricks, Delta Lake, Unity Catalog, Volumes, Bronze/Silver data modeling.
+- **Programming and analytics:** Python, SQL, PySpark, Spark SQL, dimensional modeling, data validation, sports and betting-market analysis.
+- **Production practices:** environment-based configuration, API smoke tests, ingestion metadata, lineage, quota-aware extraction, and backfills.
+
 ## Architecture
 
 ~~~mermaid
